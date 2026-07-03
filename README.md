@@ -2,7 +2,7 @@
 
 ### Shared SQL Architecture
 
-This repository contains the shared SQL architecture powering the entire [**NAVA Business Intelligence Portfolio**](https://github.com/ammflo-ops/NAVA-Business-Intelligence-Portfolio/blob/main/README.md)).
+This repository contains the shared SQL architecture powering the entire [**NAVA Business Intelligence Portfolio**](https://github.com/ammflo-ops/NAVA-Business-Intelligence-Portfolio/blob/main/README.md).
 
 It provides a centralized data warehouse, reusable analytical views and standardized business logic that support all analytical projects across Sales, Budget and Marketing.
 
