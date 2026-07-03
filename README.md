@@ -57,3 +57,5 @@ The technical foundation was designed so that a single SQL architecture supports
 This repository represents the technical foundation of the **NAVA Business Intelligence Portfolio**.
 
 Its purpose is to provide a scalable, reusable and reliable SQL architecture that enables consistent reporting and supports multiple business-oriented analytical projects.
+
+For more details, refer to [**NAVA Business Intelligence Portfolio**](https://github.com/ammflo-ops/NAVA-Business-Intelligence-Portfolio/blob/main/README.md)
