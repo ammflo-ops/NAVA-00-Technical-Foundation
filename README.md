@@ -53,7 +53,7 @@ The technical foundation was designed so that a single SQL architecture supports
 
 ---
 
-# 💡 About
+# 💡 About this Project
 
 This repository represents the technical foundation of the **NAVA Business Intelligence Portfolio**.
 
