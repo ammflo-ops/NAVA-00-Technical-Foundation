@@ -1,0 +1,229 @@
+Budget_Month,Country,Budget_Type,Budget_Amount
+2025-01-01,France,Revenue,680485.13
+2025-02-01,France,Revenue,484413.15
+2025-03-01,France,Revenue,530547.73
+2025-04-01,France,Revenue,553615.02
+2025-05-01,France,Revenue,576682.32
+2025-06-01,France,Revenue,622816.9
+2025-07-01,France,Revenue,605516.43
+2025-08-01,France,Revenue,484413.15
+2025-09-01,France,Revenue,553615.02
+2025-10-01,France,Revenue,593982.79
+2025-11-01,France,Revenue,818888.89
+2025-12-01,France,Revenue,865023.47
+2025-01-01,Spain,Revenue,170506.6
+2025-02-01,Spain,Revenue,124412.02
+2025-03-01,Spain,Revenue,146231.08
+2025-04-01,Spain,Revenue,173396.54
+2025-05-01,Spain,Revenue,191458.68
+2025-06-01,Spain,Revenue,214578.22
+2025-07-01,Spain,Revenue,218100.33
+2025-08-01,Spain,Revenue,179031.93
+2025-09-01,Spain,Revenue,208075.85
+2025-10-01,Spain,Revenue,228829.24
+2025-11-01,Spain,Revenue,323167.8
+2025-12-01,Spain,Revenue,352211.71
+2025-01-01,Portugal,Revenue,101564.95
+2025-02-01,Portugal,Revenue,72300.47
+2025-03-01,Portugal,Revenue,79186.23
+2025-04-01,Portugal,Revenue,82629.11
+2025-05-01,Portugal,Revenue,86071.99
+2025-06-01,Portugal,Revenue,92957.75
+2025-07-01,Portugal,Revenue,90375.59
+2025-08-01,Portugal,Revenue,72300.47
+2025-09-01,Portugal,Revenue,82629.11
+2025-10-01,Portugal,Revenue,88654.15
+2025-11-01,Portugal,Revenue,122222.22
+2025-12-01,Portugal,Revenue,129107.96
+2025-01-01,France,Marketing,70566.11
+2025-02-01,France,Marketing,50316.71
+2025-03-01,France,Marketing,55225.65
+2025-04-01,France,Marketing,61361.84
+2025-05-01,France,Marketing,62589.07
+2025-06-01,France,Marketing,67498.02
+2025-07-01,France,Marketing,64429.93
+2025-08-01,France,Marketing,50316.71
+2025-09-01,France,Marketing,58293.75
+2025-10-01,France,Marketing,62589.07
+2025-11-01,France,Marketing,88974.66
+2025-12-01,France,Marketing,82838.48
+2025-01-01,Spain,Marketing,23287.27
+2025-02-01,Spain,Marketing,17019.95
+2025-03-01,Spain,Marketing,20047.3
+2025-04-01,Spain,Marketing,25312.24
+2025-05-01,Spain,Marketing,27367.6
+2025-06-01,Spain,Marketing,30627.82
+2025-07-01,Spain,Marketing,30564.54
+2025-08-01,Spain,Marketing,24492.13
+2025-09-01,Spain,Marketing,28855.96
+2025-10-01,Spain,Marketing,31756.74
+2025-11-01,Spain,Marketing,46245.47
+2025-12-01,Spain,Marketing,44422.98
+2025-01-01,Portugal,Marketing,11381.63
+2025-02-01,Portugal,Marketing,8115.6
+2025-03-01,Portugal,Marketing,8907.36
+2025-04-01,Portugal,Marketing,9897.07
+2025-05-01,Portugal,Marketing,10095.01
+2025-06-01,Portugal,Marketing,10886.78
+2025-07-01,Portugal,Marketing,10391.92
+2025-08-01,Portugal,Marketing,8115.6
+2025-09-01,Portugal,Marketing,9402.22
+2025-10-01,Portugal,Marketing,10095.01
+2025-11-01,Portugal,Marketing,14350.75
+2025-12-01,Portugal,Marketing,13361.05
+2025-01-01,France,Logistics,50217.39
+2025-02-01,France,Logistics,41130.43
+2025-03-01,France,Logistics,44000.0
+2025-04-01,France,Logistics,45913.04
+2025-05-01,France,Logistics,47826.09
+2025-06-01,France,Logistics,49739.13
+2025-07-01,France,Logistics,49739.13
+2025-08-01,France,Logistics,44000.0
+2025-09-01,France,Logistics,46869.57
+2025-10-01,France,Logistics,48782.61
+2025-11-01,France,Logistics,61217.39
+2025-12-01,France,Logistics,64565.22
+2025-01-01,Spain,Logistics,13342.35
+2025-02-01,Spain,Logistics,11201.22
+2025-03-01,Spain,Logistics,12859.49
+2025-04-01,Spain,Logistics,15248.4
+2025-05-01,Spain,Logistics,16836.78
+2025-06-01,Spain,Logistics,18171.02
+2025-07-01,Spain,Logistics,18996.97
+2025-08-01,Spain,Logistics,17243.4
+2025-09-01,Spain,Logistics,18679.3
+2025-10-01,Spain,Logistics,19927.76
+2025-11-01,Spain,Logistics,25617.32
+2025-12-01,Spain,Logistics,27875.99
+2025-01-01,Portugal,Logistics,7608.7
+2025-02-01,Portugal,Logistics,6231.88
+2025-03-01,Portugal,Logistics,6666.67
+2025-04-01,Portugal,Logistics,6956.52
+2025-05-01,Portugal,Logistics,7246.38
+2025-06-01,Portugal,Logistics,7536.23
+2025-07-01,Portugal,Logistics,7536.23
+2025-08-01,Portugal,Logistics,6666.67
+2025-09-01,Portugal,Logistics,7101.45
+2025-10-01,Portugal,Logistics,7391.3
+2025-11-01,Portugal,Logistics,9275.36
+2025-12-01,Portugal,Logistics,9782.61
+2025-01-01,France,Operations,32606.56
+2025-02-01,France,Operations,29409.84
+2025-03-01,France,Operations,30688.52
+2025-04-01,France,Operations,31967.21
+2025-05-01,France,Operations,31967.21
+2025-06-01,France,Operations,32926.23
+2025-07-01,France,Operations,32926.23
+2025-08-01,France,Operations,30688.52
+2025-09-01,France,Operations,31327.87
+2025-10-01,France,Operations,31967.21
+2025-11-01,France,Operations,35803.28
+2025-12-01,France,Operations,37721.32
+2025-01-01,Spain,Operations,9219.16
+2025-02-01,Spain,Operations,8523.2
+2025-03-01,Spain,Operations,9544.54
+2025-04-01,Spain,Operations,11297.99
+2025-05-01,Spain,Operations,11975.87
+2025-06-01,Spain,Operations,12800.62
+2025-07-01,Spain,Operations,13382.47
+2025-08-01,Spain,Operations,12798.36
+2025-09-01,Spain,Operations,13286.43
+2025-10-01,Spain,Operations,13896.53
+2025-11-01,Spain,Operations,15943.72
+2025-12-01,Spain,Operations,17331.11
+2025-01-01,Portugal,Operations,5016.39
+2025-02-01,Portugal,Operations,4524.59
+2025-03-01,Portugal,Operations,4721.31
+2025-04-01,Portugal,Operations,4918.03
+2025-05-01,Portugal,Operations,4918.03
+2025-06-01,Portugal,Operations,5065.57
+2025-07-01,Portugal,Operations,5065.57
+2025-08-01,Portugal,Operations,4721.31
+2025-09-01,Portugal,Operations,4819.67
+2025-10-01,Portugal,Operations,4918.03
+2025-11-01,Portugal,Operations,5508.2
+2025-12-01,Portugal,Operations,5803.3
+2025-01-01,France,Customer Service,17390.16
+2025-02-01,France,Customer Service,15685.25
+2025-03-01,France,Customer Service,16367.21
+2025-04-01,France,Customer Service,17049.18
+2025-05-01,France,Customer Service,17049.18
+2025-06-01,France,Customer Service,17560.66
+2025-07-01,France,Customer Service,17560.66
+2025-08-01,France,Customer Service,16367.21
+2025-09-01,France,Customer Service,16708.2
+2025-10-01,France,Customer Service,17049.18
+2025-11-01,France,Customer Service,19095.08
+2025-12-01,France,Customer Service,20118.03
+2025-01-01,Spain,Customer Service,4916.88
+2025-02-01,Spain,Customer Service,4545.71
+2025-03-01,Spain,Customer Service,5090.42
+2025-04-01,Spain,Customer Service,6025.59
+2025-05-01,Spain,Customer Service,6387.13
+2025-06-01,Spain,Customer Service,6827.0
+2025-07-01,Spain,Customer Service,7137.32
+2025-08-01,Spain,Customer Service,6825.79
+2025-09-01,Spain,Customer Service,7086.1
+2025-10-01,Spain,Customer Service,7411.48
+2025-11-01,Spain,Customer Service,8503.32
+2025-12-01,Spain,Customer Service,9243.26
+2025-01-01,Portugal,Customer Service,2675.41
+2025-02-01,Portugal,Customer Service,2413.11
+2025-03-01,Portugal,Customer Service,2518.03
+2025-04-01,Portugal,Customer Service,2622.95
+2025-05-01,Portugal,Customer Service,2622.95
+2025-06-01,Portugal,Customer Service,2701.64
+2025-07-01,Portugal,Customer Service,2701.64
+2025-08-01,Portugal,Customer Service,2518.03
+2025-09-01,Portugal,Customer Service,2570.49
+2025-10-01,Portugal,Customer Service,2622.95
+2025-11-01,Portugal,Customer Service,2937.7
+2025-12-01,Portugal,Customer Service,3095.1
+2025-01-01,Corporate,IT,26666.67
+2025-02-01,Corporate,IT,26666.67
+2025-03-01,Corporate,IT,26666.67
+2025-04-01,Corporate,IT,26666.67
+2025-05-01,Corporate,IT,26666.67
+2025-06-01,Corporate,IT,26666.67
+2025-07-01,Corporate,IT,26666.67
+2025-08-01,Corporate,IT,26666.67
+2025-09-01,Corporate,IT,26666.67
+2025-10-01,Corporate,IT,26666.67
+2025-11-01,Corporate,IT,26666.67
+2025-12-01,Corporate,IT,26666.63
+2025-01-01,Corporate,HR,20000.0
+2025-02-01,Corporate,HR,20000.0
+2025-03-01,Corporate,HR,20000.0
+2025-04-01,Corporate,HR,20000.0
+2025-05-01,Corporate,HR,20000.0
+2025-06-01,Corporate,HR,20000.0
+2025-07-01,Corporate,HR,20000.0
+2025-08-01,Corporate,HR,20000.0
+2025-09-01,Corporate,HR,20000.0
+2025-10-01,Corporate,HR,20000.0
+2025-11-01,Corporate,HR,20000.0
+2025-12-01,Corporate,HR,20000.0
+2025-01-01,Corporate,Finance,21666.67
+2025-02-01,Corporate,Finance,21666.67
+2025-03-01,Corporate,Finance,21666.67
+2025-04-01,Corporate,Finance,21666.67
+2025-05-01,Corporate,Finance,21666.67
+2025-06-01,Corporate,Finance,21666.67
+2025-07-01,Corporate,Finance,21666.67
+2025-08-01,Corporate,Finance,21666.67
+2025-09-01,Corporate,Finance,21666.67
+2025-10-01,Corporate,Finance,21666.67
+2025-11-01,Corporate,Finance,21666.67
+2025-12-01,Corporate,Finance,21666.63
+2025-01-01,Corporate,Administration,18333.33
+2025-02-01,Corporate,Administration,18333.33
+2025-03-01,Corporate,Administration,18333.33
+2025-04-01,Corporate,Administration,18333.33
+2025-05-01,Corporate,Administration,18333.33
+2025-06-01,Corporate,Administration,18333.33
+2025-07-01,Corporate,Administration,18333.33
+2025-08-01,Corporate,Administration,18333.33
+2025-09-01,Corporate,Administration,18333.33
+2025-10-01,Corporate,Administration,18333.33
+2025-11-01,Corporate,Administration,18333.33
+2025-12-01,Corporate,Administration,18333.37

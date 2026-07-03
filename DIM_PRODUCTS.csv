@@ -1,0 +1,501 @@
+﻿Product_ID,Product_Name,Category,Sub_Category,Product_Tier,Is_Top_Seller,Standard_Cost
+NVA-FUR-0001,Luna Wool Sideboard,Furniture,Dining Furniture,Mid-Range,Yes,267.6
+NVA-FUR-0002,Granada Brass Bar Stool,Furniture,Dining Furniture,Mid-Range,No,259.55
+NVA-FUR-0003,Vienna Brass Accent Chair,Furniture,Accent Furniture,Entry,Yes,190.29
+NVA-FUR-0004,Barcelona Walnut Side Table,Furniture,Living Room Furniture,Entry,No,230.16
+NVA-FUR-0005,Valencia Pine Storage Cabinet,Furniture,Storage Furniture,Mid-Range,Yes,362.03
+NVA-FUR-0006,Coastal Glass Bedside Table,Furniture,Bedroom Furniture,Entry,No,162.15
+NVA-FUR-0007,Madrid Brass Side Table,Furniture,Living Room Furniture,Entry,No,160.77
+NVA-FUR-0008,Coastal Velvet Sideboard,Furniture,Storage Furniture,Mid-Range,Yes,301.13
+NVA-FUR-0009,Lisbon Walnut Lounge Chair,Furniture,Living Room Furniture,Mid-Range,Yes,343.49
+NVA-FUR-0010,Aurora Oak Display Cabinet,Furniture,Storage Furniture,Mid-Range,Yes,455.52
+NVA-FUR-0011,Algarve Brass Bookshelf,Furniture,Storage Furniture,Premium,No,514.75
+NVA-FUR-0012,Estrela Pine Coffee Table,Furniture,Living Room Furniture,Mid-Range,No,418.62
+NVA-FUR-0013,Paris Oak Chest of Drawers,Furniture,Bedroom Furniture,Premium,No,668.69
+NVA-FUR-0014,Sierra Stoneware Headboard,Furniture,Bedroom Furniture,Mid-Range,No,274.27
+NVA-FUR-0015,Vienna Wool Display Cabinet,Furniture,Storage Furniture,Mid-Range,No,254.25
+NVA-FUR-0016,Nordic Walnut Bench,Furniture,Dining Furniture,Entry,Yes,219.62
+NVA-FUR-0017,Valencia Marble Sideboard,Furniture,Dining Furniture,Mid-Range,Yes,239.88
+NVA-FUR-0018,Toulouse Canvas Entryway Bench,Furniture,Accent Furniture,Premium,No,626.66
+NVA-FUR-0019,Algarve Walnut Display Cabinet,Furniture,Storage Furniture,Mid-Range,No,449.57
+NVA-FUR-0020,Estrela Ceramic Dining Chair,Furniture,Dining Furniture,Entry,No,131.3
+NVA-FUR-0021,Vienna Metal Dining Chair,Furniture,Dining Furniture,Mid-Range,No,294.11
+NVA-FUR-0022,Coastal Clay Lounge Chair,Furniture,Living Room Furniture,Premium,No,535.52
+NVA-FUR-0023,Porto Brass Sideboard,Furniture,Dining Furniture,Entry,No,228.42
+NVA-FUR-0024,Florence Marble Entryway Bench,Furniture,Accent Furniture,Mid-Range,No,434.01
+NVA-FUR-0025,Vienna Marble Bookshelf,Furniture,Storage Furniture,Premium,No,474.62
+NVA-FUR-0026,Madrid Rattan Bar Stool,Furniture,Dining Furniture,Premium,No,509.7
+NVA-FUR-0027,Oslo Stoneware Storage Cabinet,Furniture,Storage Furniture,Entry,No,224.42
+NVA-FUR-0028,Lisbon Velvet Lounge Chair,Furniture,Living Room Furniture,Premium,Yes,524.36
+NVA-FUR-0029,Siena Cotton Entryway Bench,Furniture,Accent Furniture,Entry,Yes,259.52
+NVA-FUR-0030,Douro Metal Dining Chair,Furniture,Dining Furniture,Mid-Range,Yes,288.19
+NVA-FUR-0031,Barcelona Bamboo Coffee Table,Furniture,Living Room Furniture,Mid-Range,Yes,355.76
+NVA-FUR-0032,Granada Canvas Sideboard,Furniture,Dining Furniture,Mid-Range,Yes,227.54
+NVA-FUR-0033,Marseille Linen Bedroom Bench,Furniture,Bedroom Furniture,Mid-Range,No,436.28
+NVA-FUR-0034,Siena Linen Chest of Drawers,Furniture,Bedroom Furniture,Entry,No,253.16
+NVA-FUR-0035,Madrid Woven Display Cabinet,Furniture,Storage Furniture,Entry,No,178.9
+NVA-FUR-0036,Braga Marble Dining Table,Furniture,Dining Furniture,Entry,Yes,164.82
+NVA-FUR-0037,Florence Wool Nest Table,Furniture,Accent Furniture,Mid-Range,No,268.86
+NVA-FUR-0038,Porto Brass Bedside Table,Furniture,Bedroom Furniture,Mid-Range,No,391.34
+NVA-FUR-0039,Oslo Marble Accent Chair,Furniture,Accent Furniture,Premium,No,576.43
+NVA-FUR-0040,Siena Ceramic Console Table,Furniture,Living Room Furniture,Premium,No,568.6
+NVA-FUR-0041,Braga Brass Sideboard,Furniture,Dining Furniture,Mid-Range,No,323.76
+NVA-FUR-0042,Porto Cotton Sofa,Furniture,Living Room Furniture,Premium,No,525.88
+NVA-FUR-0043,Luna Bamboo Bench,Furniture,Dining Furniture,Entry,Yes,153.07
+NVA-FUR-0044,Valencia Rattan Dining Table,Furniture,Dining Furniture,Mid-Range,Yes,287.36
+NVA-FUR-0045,Douro Bouclé Sofa,Furniture,Living Room Furniture,Mid-Range,No,262.53
+NVA-FUR-0046,Vienna Linen Bookshelf,Furniture,Storage Furniture,Entry,No,190.2
+NVA-FUR-0047,Douro Brass Bedroom Bench,Furniture,Bedroom Furniture,Premium,No,658.22
+NVA-FUR-0048,Sierra Metal Chest of Drawers,Furniture,Bedroom Furniture,Premium,No,604.96
+NVA-FUR-0049,Douro Brass Coffee Table,Furniture,Living Room Furniture,Mid-Range,No,233.19
+NVA-FUR-0050,Granada Brass Bench,Furniture,Dining Furniture,Entry,No,243.44
+NVA-FUR-0051,Siena Ceramic Pouf,Furniture,Accent Furniture,Mid-Range,No,378.33
+NVA-FUR-0052,Paris Walnut Dining Chair,Furniture,Dining Furniture,Mid-Range,No,401.37
+NVA-FUR-0053,Nordic Stoneware Coffee Table,Furniture,Living Room Furniture,Premium,No,491.7
+NVA-FUR-0054,Coastal Oak Chest of Drawers,Furniture,Bedroom Furniture,Premium,No,549.39
+NVA-FUR-0055,Bordeaux Woven Side Table,Furniture,Living Room Furniture,Mid-Range,No,403.47
+NVA-FUR-0056,Lyon Canvas Bench,Furniture,Dining Furniture,Premium,No,499.87
+NVA-FUR-0057,Bordeaux Oak Bedroom Bench,Furniture,Bedroom Furniture,Entry,Yes,145.08
+NVA-FUR-0058,Algarve Clay Shelving Unit,Furniture,Storage Furniture,Premium,Yes,650.0
+NVA-FUR-0059,Valencia Linen TV Unit,Furniture,Living Room Furniture,Mid-Range,No,331.2
+NVA-FUR-0060,Nice Marble Headboard,Furniture,Bedroom Furniture,Entry,No,201.86
+NVA-FUR-0061,Lisbon Pine Lounge Chair,Furniture,Living Room Furniture,Mid-Range,No,417.36
+NVA-FUR-0062,Siena Walnut Coffee Table,Furniture,Living Room Furniture,Mid-Range,No,357.07
+NVA-FUR-0063,Florence Bamboo Sofa,Furniture,Living Room Furniture,Mid-Range,Yes,351.67
+NVA-FUR-0064,Lyon Brass Bookshelf,Furniture,Storage Furniture,Mid-Range,No,241.96
+NVA-FUR-0065,cascais marble shelving unit,Furniture,Storage Furniture,Mid-Range,No,346.09
+NVA-FUR-0066,Nice Rattan Sofa,Furniture,Living Room Furniture,Mid-Range,Yes,313.09
+NVA-FUR-0067,Bordeaux Pine Sideboard,Furniture,Storage Furniture,Mid-Range,Yes,354.19
+NVA-FUR-0068,MADRID GLASS SIDEBOARD,Furniture,Dining Furniture,Entry,No,199.7
+NVA-FUR-0069,Vienna Ceramic Stool,Furniture,Accent Furniture,Premium,No,539.84
+NVA-FUR-0070,Paris Bamboo TV Unit,Furniture,Living Room Furniture,Entry,Yes,246.63
+NVA-FUR-0071,Marseille Glass TV Unit,Furniture,Living Room Furniture,Entry,Yes,200.98
+NVA-FUR-0072,Cascais Marble Entryway Bench,Furniture,Accent Furniture,Entry,No,205.62
+NVA-FUR-0073,Vienna Glass Dressing Table,Furniture,Bedroom Furniture,Entry,No,211.47
+NVA-FUR-0074,Vienna Velvet Pouf,Furniture,Accent Furniture,Entry,No,179.23
+NVA-FUR-0075,Bordeaux Velvet Bedroom Bench ,Furniture,Bedroom Furniture,Premium,No,589.93
+NVA-FUR-0076,Vienna Rattan Pouf,Furniture,Accent Furniture,Mid-Range,Yes,264.76
+NVA-FUR-0077,Madrid Oak Coffee Table,Furniture,Living Room Furniture,Premium,No,447.74
+NVA-FUR-0078,Cascais Velvet Sideboard,Furniture,Storage Furniture,Mid-Range,No,303.37
+NVA-FUR-0079,Nordic Pine Display Cabinet,Furniture,Storage Furniture,Mid-Range,No,310.65
+NVA-FUR-0080,Madrid Oak Bookshelf,Furniture,Storage Furniture,Mid-Range,No,414.48
+NVA-FUR-0081,Provence Brass Bedside Table,Furniture,Bedroom Furniture,Premium,Yes,471.71
+NVA-FUR-0082,Florence Stoneware Console Table,Furniture,Living Room Furniture,Mid-Range,No,238.65
+NVA-FUR-0083,Sierra Linen Coffee Table,Furniture,Living Room Furniture,Mid-Range,No,303.56
+NVA-FUR-0084,Vienna Canvas Stool,Furniture,Accent Furniture,Premium,No,671.58
+NVA-FUR-0085,Bordeaux Stoneware Entryway Bench,Furniture,Accent Furniture,Mid-Range,Yes,334.67
+NVA-FUR-0086,Douro Canvas Console Table,Furniture,Living Room Furniture,Mid-Range,No,298.17
+NVA-FUR-0087,Barcelona Ceramic Bedroom Bench,Furniture,Bedroom Furniture,Mid-Range,No,366.1
+NVA-FUR-0088,Barcelona Woven Sideboard,Furniture,Storage Furniture,Entry,No,238.38
+NVA-FUR-0089,Siena Canvas Console Table,Furniture,Living Room Furniture,Mid-Range,Yes,308.79
+NVA-FUR-0090,Siena Stoneware Bookshelf,Furniture,Storage Furniture,Entry,No,134.24
+NVA-FUR-0091,Coastal Woven Nest Table,Furniture,Accent Furniture,Mid-Range,Yes,282.52
+NVA-FUR-0092,Porto Cotton Lounge Chair,Furniture,Living Room Furniture,Premium,No,461.98
+NVA-FUR-0093,Braga Cotton Side Table,Furniture,Living Room Furniture,Mid-Range,No,356.48
+NVA-FUR-0094,Seville Brass Sofa,Furniture,Living Room Furniture,Mid-Range,Yes,281.69
+NVA-FUR-0095,Seville Walnut Bar Stool,Furniture,Dining Furniture,Premium,Yes,469.96
+NVA-FUR-0096,Paris Clay Bar Stool,Furniture,Dining Furniture,Premium,No,640.01
+NVA-FUR-0097,Estrela Clay Accent Chair,Furniture,Accent Furniture,Mid-Range,No,290.04
+NVA-FUR-0098,Lyon Rattan Sofa,Furniture,Living Room Furniture,Premium,No,571.75
+NVA-FUR-0099,Avery Bamboo Side Table,Furniture,Living Room Furniture,Mid-Range,No,382.06
+NVA-FUR-0100,Toulouse Metal Bookshelf,Furniture,Storage Furniture,Mid-Range,No,272.3
+NVA-LGT-0001,Classic Tripod Lamp,Lighting,Floor Lamps,Entry,No,52.41
+NVA-LGT-0002,Urban Chandelier,Lighting,Ceiling Lighting,Entry,No,36.7
+NVA-LGT-0003,Elegant Reading Lamp,Lighting,Floor Lamps,Entry,No,59.29
+NVA-LGT-0004,Scandi Lantern,Lighting,Decorative Lighting,Entry,No,36.16
+NVA-LGT-0005,Madrid Floor Lamp,Lighting,Floor Lamps,Mid-Range,No,60.26
+NVA-LGT-0006,Minimal Pendant Light,Lighting,Ceiling Lighting,Entry,No,50.48
+NVA-LGT-0007,Nordic Reading Lamp,Lighting,Floor Lamps,Mid-Range,No,71.52
+NVA-LGT-0008,Heritage Flush Light,Lighting,Ceiling Lighting,Mid-Range,No,57.36
+NVA-LGT-0009,Contemporary Wall Light,Lighting,Wall Lighting,Entry,No,32.89
+NVA-LGT-0010,Coastal Floor Lamp,Lighting,Floor Lamps,Entry,No,48.99
+NVA-LGT-0011,Elegant Pendant Light,Lighting,Ceiling Lighting,Entry,No,31.14
+NVA-LGT-0012,Warm Wall Light,Lighting,Wall Lighting,Mid-Range,No,72.94
+NVA-LGT-0013,Paris Bedside Lamp,Lighting,Table Lamps,Mid-Range,No,66.51
+NVA-LGT-0014,Warm Flush Light,Lighting,Ceiling Lighting,Entry,No,41.09
+NVA-LGT-0015,Nice Floor Lamp,Lighting,Floor Lamps,Premium,No,98.18
+NVA-LGT-0016,Siena Bedside Lamp,Lighting,Table Lamps,Mid-Range,No,75.47
+NVA-LGT-0017,Coastal Bedside Lamp,Lighting,Table Lamps,Premium,No,99.86
+NVA-LGT-0018,Contemporary Flush Light,Lighting,Ceiling Lighting,Mid-Range,Yes,60.83
+NVA-LGT-0019,Elegant Lantern,Lighting,Decorative Lighting,Mid-Range,No,77.6
+NVA-LGT-0020,Soft Wall Sconce,Lighting,Wall Lighting,Entry,No,57.03
+NVA-LGT-0021,Rustic Picture Light,Lighting,Wall Lighting,Entry,No,44.88
+NVA-LGT-0022,Sierra Arc Lamp,Lighting,Floor Lamps,Mid-Range,No,59.97
+NVA-LGT-0023,Urban Bedside Lamp,Lighting,Table Lamps,Premium,No,125.14
+NVA-LGT-0024,Vintage Ceramic Lamp,Lighting,Table Lamps,Mid-Range,No,76.87
+NVA-LGT-0025,Florence Reading Lamp,Lighting,Floor Lamps,Mid-Range,No,70.07
+NVA-LGT-0026,Modern String Light,Lighting,Decorative Lighting,Mid-Range,No,89.61
+NVA-LGT-0027,Oslo Tripod Lamp,Lighting,Floor Lamps,Mid-Range,No,54.51
+NVA-LGT-0028,vienna decorative lamp,Lighting,Decorative Lighting,Entry,No,54.58
+NVA-LGT-0029,Algarve Table Lamp,Lighting,Table Lamps,Mid-Range,Yes,67.28
+NVA-LGT-0030,Algarve Reading Lamp,Lighting,Floor Lamps,Premium,Yes,146.98
+NVA-LGT-0031,Toulouse Desk Lamp,Lighting,Table Lamps,Entry,No,58.69
+NVA-LGT-0032,Estrela Chandelier,Lighting,Ceiling Lighting,Entry,Yes,35.3
+NVA-LGT-0033,Marseille Desk Lamp,Lighting,Table Lamps,Mid-Range,No,75.58
+NVA-LGT-0034,Avery Desk Lamp,Lighting,Table Lamps,Premium,No,96.41
+NVA-LGT-0035,Heritage Decorative Lamp,Lighting,Decorative Lighting,Mid-Range,No,55.27
+NVA-LGT-0036,Aurora Desk Lamp,Lighting,Table Lamps,Mid-Range,No,102.24
+NVA-LGT-0037,Rustic Desk Lamp,Lighting,Table Lamps,Mid-Range,No,69.19
+NVA-LGT-0038,Provence Desk Lamp,Lighting,Table Lamps,Premium,Yes,96.83
+NVA-LGT-0039,Elegant Ceramic Lamp,Lighting,Table Lamps,Premium,No,109.07
+NVA-LGT-0040,Nordic Picture Light,Lighting,Wall Lighting,Entry,Yes,58.88
+NVA-LGT-0041,Marseille Arc Lamp,Lighting,Floor Lamps,Premium,No,113.41
+NVA-LGT-0042,Classic Desk Lamp,Lighting,Table Lamps,Mid-Range,No,66.93
+NVA-LGT-0043,Marseille Reading Lamp,Lighting,Floor Lamps,Mid-Range,Yes,68.8
+NVA-LGT-0044,Contemporary Ceramic Lamp,Lighting,Table Lamps,Mid-Range,No,100.46
+NVA-LGT-0045,Minimal Lantern,Lighting,Decorative Lighting,Mid-Range,Yes,64.03
+NVA-LGT-0046,Siena Arc Lamp,Lighting,Floor Lamps,Mid-Range,Yes,81.46
+NVA-LGT-0047,Natural Desk Lamp,Lighting,Table Lamps,Mid-Range,No,84.46
+NVA-LGT-0048,Aurora Chandelier,Lighting,Ceiling Lighting,Entry,Yes,49.23
+NVA-LGT-0049,Barcelona Flush Light,Lighting,Ceiling Lighting,Mid-Range,No,70.01
+NVA-LGT-0050,Artisan Ambient Light,Lighting,Decorative Lighting,Mid-Range,No,66.7
+NVA-LGT-0051,Braga Chandelier,Lighting,Ceiling Lighting,Mid-Range,No,59.1
+NVA-LGT-0052,Warm Wall Sconce,Lighting,Wall Lighting,Entry,Yes,27.97
+NVA-LGT-0053,Granada Desk Lamp,Lighting,Table Lamps,Mid-Range,No,63.95
+NVA-LGT-0054,Modern Bedside Lamp,Lighting,Table Lamps,Entry,No,33.56
+NVA-LGT-0055,Estrela Ceramic Lamp,Lighting,Table Lamps,Mid-Range,Yes,86.16
+NVA-LGT-0056,Vintage Decorative Lamp,Lighting,Decorative Lighting,Mid-Range,No,51.02
+NVA-LGT-0057,Minimal Wall Light,Lighting,Wall Lighting,Mid-Range,No,53.95
+NVA-LGT-0058,Artisan Ceramic Lamp,Lighting,Table Lamps,Mid-Range,No,74.96
+NVA-LGT-0059,Estrela Tripod Lamp,Lighting,Floor Lamps,Mid-Range,No,69.81
+NVA-LGT-0060,Douro Wall Sconce,Lighting,Wall Lighting,Mid-Range,No,80.68
+NVA-LGT-0061,Coastal Table Lamp,Lighting,Table Lamps,Entry,Yes,50.31
+NVA-LGT-0062,Nice Tripod Lamp,Lighting,Floor Lamps,Mid-Range,No,54.48
+NVA-LGT-0063,Braga Pendant Light,Lighting,Ceiling Lighting,Mid-Range,No,88.23
+NVA-LGT-0064,Elegant Desk Lamp,Lighting,Table Lamps,Mid-Range,No,90.84
+NVA-LGT-0065,MODERN DECORATIVE LAMP,Lighting,Decorative Lighting,Entry,No,40.67
+NVA-LGT-0066,Soft Chandelier,Lighting,Ceiling Lighting,Mid-Range,No,69.71
+NVA-LGT-0067,Coastal Lantern,Lighting,Decorative Lighting,Premium,Yes,115.88
+NVA-LGT-0068,Coastal Desk Lamp,Lighting,Table Lamps,Entry,Yes,46.92
+NVA-LGT-0069,Vintage Picture Light,Lighting,Wall Lighting,Mid-Range,No,74.4
+NVA-LGT-0070,Nordic Desk Lamp,Lighting,Table Lamps,Mid-Range,No,90.43
+NVA-LGT-0071,Vienna Flush Light,Lighting,Ceiling Lighting,Premium,No,113.24
+NVA-LGT-0072,Scandi Pendant Light,Lighting,Ceiling Lighting,Mid-Range,No,102.12
+NVA-LGT-0073,Seville Chandelier,Lighting,Ceiling Lighting,Entry,No,51.7
+NVA-LGT-0074,Lisbon Desk Lamp,Lighting,Table Lamps,Premium,No,102.31
+NVA-LGT-0075,Elegant Picture Light,Lighting,Wall Lighting,Entry,No,60.18
+NVA-TXT-0001,Cascais Brass Blackout Curtain,Home Textiles,Curtains,Entry,No,12.1
+NVA-TXT-0002,Estrela Bamboo Rug,Home Textiles,Rugs,Mid-Range,No,36.64
+NVA-TXT-0003,Seville Stoneware Runner Rug,Home Textiles,Rugs,Mid-Range,No,42.61
+NVA-TXT-0004,Bordeaux Stoneware Duvet Cover,Home Textiles,Bedding,Mid-Range,No,29.02
+NVA-TXT-0005,Lisbon Marble Knitted Blanket,Home Textiles,Throws,Entry,No,18.66
+NVA-TXT-0006,Siena Bouclé Embroidered Cushion,Home Textiles,Cushions,Premium,No,68.76
+NVA-TXT-0007,Sierra Wool Blackout Curtain,Home Textiles,Curtains,Mid-Range,No,23.16
+NVA-TXT-0008,Porto Brass Cushion,Home Textiles,Cushions,Entry,No,12.02
+NVA-TXT-0009,Lyon Cotton Blackout Curtain,Home Textiles,Curtains,Entry,Yes,20.45
+NVA-TXT-0010,Avery Bamboo Quilt Set,Home Textiles,Bedding,Premium,Yes,51.27
+NVA-TXT-0011,Seville Bouclé Bedding Set,Home Textiles,Bedding,Entry,Yes,24.31
+NVA-TXT-0012,Estrela Walnut Woven Throw,Home Textiles,Throws,Entry,No,26.2
+NVA-TXT-0013,Marseille Bouclé Knitted Blanket,Home Textiles,Throws,Premium,No,47.56
+NVA-TXT-0014,Nordic Cotton Embroidered Cushion,Home Textiles,Cushions,Mid-Range,No,34.86
+NVA-TXT-0015,Estrela Linen Runner Rug,Home Textiles,Rugs,Mid-Range,No,28.08
+NVA-TXT-0016,Lisbon Woven Wool Rug,Home Textiles,Rugs,Entry,No,20.68
+NVA-TXT-0017,Estrela Bamboo Cushion Cover,Home Textiles,Cushions,Mid-Range,Yes,48.0
+NVA-TXT-0018,Cascais Bamboo Knitted Blanket,Home Textiles,Throws,Mid-Range,No,22.41
+NVA-TXT-0019,Oslo Ceramic Wool Rug,Home Textiles,Rugs,Mid-Range,Yes,26.65
+NVA-TXT-0020,Sierra Marble Duvet Cover,Home Textiles,Bedding,Entry,No,17.48
+NVA-TXT-0021,Estrela Cotton Cushion,Home Textiles,Cushions,Mid-Range,No,32.63
+NVA-TXT-0022,Porto Cotton Duvet Cover,Home Textiles,Bedding,Entry,No,22.68
+NVA-TXT-0023,Porto Canvas Throw,Home Textiles,Throws,Mid-Range,No,25.62
+NVA-TXT-0024,Barcelona Marble Jute Rug,Home Textiles,Rugs,Entry,No,13.69
+NVA-TXT-0025,Nice Marble Linen Curtain,Home Textiles,Curtains,Mid-Range,No,38.36
+NVA-TXT-0026,Cascais Velvet Embroidered Cushion,Home Textiles,Cushions,Entry,No,24.46
+NVA-TXT-0027,Algarve Textured Curtain,Home Textiles,Curtains,Mid-Range,No,22.88
+NVA-TXT-0028,Siena Stoneware Cushion,Home Textiles,Cushions,Entry,No,21.76
+NVA-TXT-0029,Cascais Stoneware Duvet Cover,Home Textiles,Bedding,Mid-Range,No,29.33
+NVA-TXT-0030,Provence Canvas Runner Rug,Home Textiles,Rugs,Entry,No,12.54
+NVA-TXT-0031,Lisbon Rattan Cushion Cover,Home Textiles,Cushions,Mid-Range,No,35.44
+NVA-TXT-0032,Toulouse Canvas Blackout Curtain,Home Textiles,Curtains,Entry,No,21.82
+NVA-TXT-0033,Coastal Pine Curtain,Home Textiles,Curtains,Entry,No,26.76
+NVA-TXT-0034,Oslo Glass Throw,Home Textiles,Throws,Mid-Range,No,27.16
+NVA-TXT-0035,Provence Cotton Throw,Home Textiles,Throws,Entry,No,22.94
+NVA-TXT-0036,Bordeaux Linen Duvet Cover,Home Textiles,Bedding,Entry,Yes,7.7
+NVA-TXT-0037,Algarve Cotton Jute Rug,Home Textiles,Rugs,Mid-Range,No,28.66
+NVA-TXT-0038,Coastal Canvas Quilt Set,Home Textiles,Bedding,Entry,Yes,20.48
+NVA-TXT-0039,Porto Pine Wool Rug,Home Textiles,Rugs,Mid-Range,No,41.46
+NVA-TXT-0040,Seville Oak Cushion,Home Textiles,Cushions,Premium,No,53.7
+NVA-TXT-0041,Estrela Marble Throw,Home Textiles,Throws,Entry,No,20.7
+NVA-TXT-0042,Paris Brass Quilt Set,Home Textiles,Bedding,Mid-Range,Yes,26.94
+NVA-TXT-0043,Oslo Marble Cushion Cover,Home Textiles,Cushions,Mid-Range,No,24.88
+NVA-TXT-0044,Barcelona Bouclé Quilt Set,Home Textiles,Bedding,Mid-Range,No,23.49
+NVA-TXT-0045,Coastal Brass Rug,Home Textiles,Rugs,Entry,No,20.87
+NVA-TXT-0046,Paris Rattan Rug,Home Textiles,Rugs,Mid-Range,No,37.38
+NVA-TXT-0047,Bordeaux Ceramic Throw,Home Textiles,Throws,Mid-Range,No,23.3
+NVA-TXT-0048,Lisbon Canvas Embroidered Cushion,Home Textiles,Cushions,Entry,No,19.84
+NVA-TXT-0049,Lyon Cotton Cushion Cover,Home Textiles,Cushions,Entry,Yes,15.42
+NVA-TXT-0050,Siena Glass Curtain,Home Textiles,Curtains,Entry,No,14.07
+NVA-TXT-0051,Provence Velvet Bedding Set,Home Textiles,Bedding,Mid-Range,No,24.97
+NVA-TXT-0052,Toulouse Stoneware Embroidered Cushion,Home Textiles,Cushions,Entry,No,22.83
+NVA-TXT-0053,Barcelona Clay Blackout Curtain,Home Textiles,Curtains,Mid-Range,No,34.51
+NVA-TXT-0054,Bordeaux Marble Embroidered Cushion,Home Textiles,Cushions,Entry,No,13.53
+NVA-TXT-0055,Toulouse Stoneware Throw,Home Textiles,Throws,Entry,No,21.39
+NVA-TXT-0056,Luna Walnut Cushion Cover,Home Textiles,Cushions,Mid-Range,No,28.11
+NVA-TXT-0057,Marseille Stoneware Rug,Home Textiles,Rugs,Premium,Yes,53.55
+NVA-TXT-0058,Lyon Rattan Throw,Home Textiles,Throws,Mid-Range,No,23.31
+NVA-TXT-0059,Cascais Textured Rug,Home Textiles,Rugs,Entry,Yes,19.8
+NVA-TXT-0060,Luna Bamboo Jute Rug,Home Textiles,Rugs,Entry,No,25.81
+NVA-TXT-0061,Barcelona Clay Rug,Home Textiles,Rugs,Premium,No,57.9
+NVA-TXT-0062,Cascais Wool Cushion Cover,Home Textiles,Cushions,Mid-Range,No,31.16
+NVA-TXT-0063,Barcelona Linen Rug,Home Textiles,Rugs,Premium,Yes,62.4
+NVA-TXT-0064,Braga Velvet Woven Throw,Home Textiles,Throws,Entry,No,19.76
+NVA-TXT-0065,Valencia Metal Curtain,Home Textiles,Curtains,Entry,No,22.3
+NVA-TXT-0066,Florence Canvas Duvet Cover,Home Textiles,Bedding,Entry,No,21.13
+NVA-TXT-0067,Lyon Rattan Cushion Cover,Home Textiles,Cushions,Entry,No,18.06
+NVA-TXT-0068,Vienna Textured Cushion Cover,Home Textiles,Cushions,Entry,Yes,10.43
+NVA-TXT-0069,Porto Marble Wool Rug,Home Textiles,Rugs,Entry,No,11.96
+NVA-TXT-0070,Paris Rattan Knitted Blanket,Home Textiles,Throws,Entry,No,15.73
+NVA-TXT-0071,Sierra Textured Quilt Set,Home Textiles,Bedding,Mid-Range,Yes,41.95
+NVA-TXT-0072,Porto Clay Cushion Cover,Home Textiles,Cushions,Entry,No,21.78
+NVA-TXT-0073,Marseille Pine Cushion Cover,Home Textiles,Cushions,Mid-Range,No,24.16
+NVA-TXT-0074,Porto Rattan Knitted Blanket,Home Textiles,Throws,Entry,No,20.48
+NVA-TXT-0075,Granada Marble Embroidered Cushion,Home Textiles,Cushions,Entry,Yes,23.5
+NVA-TXT-0076,Milan Brass Rug,Home Textiles,Rugs,Mid-Range,No,31.32
+NVA-TXT-0077,Nordic Marble Throw,Home Textiles,Throws,Mid-Range,Yes,45.87
+NVA-TXT-0078,Nordic Metal Cushion Cover,Home Textiles,Cushions,Entry,Yes,28.03
+NVA-TXT-0079,Porto Rattan Cushion,Home Textiles,Cushions,Mid-Range,No,40.77
+NVA-TXT-0080,Florence Bamboo Cushion,Home Textiles,Cushions,Mid-Range,Yes,40.41
+NVA-TXT-0081,Valencia Marble Knitted Blanket,Home Textiles,Throws,Mid-Range,No,42.09
+NVA-TXT-0082,Madrid Textured Blackout Curtain,Home Textiles,Curtains,Premium,Yes,52.12
+NVA-TXT-0083,Algarve Textured Cushion,Home Textiles,Cushions,Mid-Range,No,39.45
+NVA-TXT-0084,Nice Stoneware Curtain,Home Textiles,Curtains,Entry,No,10.05
+NVA-TXT-0085,Vienna Metal Cushion Cover,Home Textiles,Cushions,Mid-Range,No,47.55
+NVA-TXT-0086,Marseille Stoneware Knitted Blanket,Home Textiles,Throws,Mid-Range,No,25.95
+NVA-TXT-0087,Marseille Wool Bedding Set,Home Textiles,Bedding,Entry,No,24.8
+NVA-TXT-0088,Lyon Clay Cushion,Home Textiles,Cushions,Mid-Range,No,49.08
+NVA-TXT-0089,Provence Rattan Woven Throw,Home Textiles,Throws,Entry,No,23.09
+NVA-TXT-0090,Algarve Glass Jute Rug,Home Textiles,Rugs,Entry,No,23.36
+NVA-TXT-0091,Estrela Woven Curtain,Home Textiles,Curtains,Mid-Range,No,22.92
+NVA-TXT-0092,Estrela Bouclé Cushion Cover,Home Textiles,Cushions,Mid-Range,Yes,32.35
+NVA-TXT-0093,Braga Canvas Bedding Set,Home Textiles,Bedding,Mid-Range,No,41.03
+NVA-TXT-0094,Porto Ceramic Linen Curtain,Home Textiles,Curtains,Entry,No,16.12
+NVA-TXT-0095,Madrid Brass Embroidered Cushion,Home Textiles,Cushions,Mid-Range,No,23.55
+NVA-TXT-0096,Aurora Stoneware Throw,Home Textiles,Throws,Mid-Range,No,42.45
+NVA-TXT-0097,Seville Walnut Rug,Home Textiles,Rugs,Entry,No,18.2
+NVA-TXT-0098,Coastal Pine Linen Curtain,Home Textiles,Curtains,Premium,No,72.86
+NVA-TXT-0099,Coastal Oak Cushion Cover,Home Textiles,Cushions,Premium,No,51.08
+NVA-TXT-0100,Aurora Marble Throw,Home Textiles,Throws,Mid-Range,No,38.84
+NVA-DEC-0001,Barcelona Stoneware Wall Mirror,Decorative Accessories,Mirrors,Premium,No,35.02
+NVA-DEC-0002,Madrid Bamboo Framed Print,Decorative Accessories,Wall Decor,Entry,No,12.73
+NVA-DEC-0003,Provence Cotton Round Mirror,Decorative Accessories,Mirrors,Entry,No,11.0
+NVA-DEC-0004,Aurora Linen Decorative Bowl,Decorative Accessories,Decorative Objects,Entry,No,11.75
+NVA-DEC-0005,Algarve Ceramic Framed Print,Decorative Accessories,Wall Decor,Entry,No,9.91
+NVA-DEC-0006,Lyon Canvas Round Mirror,Decorative Accessories,Mirrors,Mid-Range,No,25.59
+NVA-DEC-0007,Siena Glass Decorative Bowl,Decorative Accessories,Decorative Objects,Entry,No,12.69
+NVA-DEC-0008,Siena Cotton Decorative Box,Decorative Accessories,Decorative Objects,Entry,No,12.61
+NVA-DEC-0009,Florence Ceramic Candle,Decorative Accessories,Candles,Entry,Yes,12.35
+NVA-DEC-0010,Algarve Textured Wall Panel,Decorative Accessories,Wall Decor,Mid-Range,Yes,21.82
+NVA-DEC-0011,Bordeaux Clay Decorative Box,Decorative Accessories,Decorative Objects,Mid-Range,No,13.42
+NVA-DEC-0012,Porto Walnut Candle,Decorative Accessories,Candles,Entry,Yes,15.14
+NVA-DEC-0013,Milan Glass Framed Print,Decorative Accessories,Wall Decor,Premium,No,36.48
+NVA-DEC-0014,Cascais Oak Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,No,18.51
+NVA-DEC-0015,Marseille Rattan Decorative Box,Decorative Accessories,Decorative Objects,Premium,No,32.32
+NVA-DEC-0016,Marseille Stoneware Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,No,13.82
+NVA-DEC-0017,Algarve Stoneware Decorative Bowl,Decorative Accessories,Decorative Objects,Mid-Range,Yes,17.48
+NVA-DEC-0018,Nordic Marble Vanity Mirror,Decorative Accessories,Mirrors,Premium,No,33.94
+NVA-DEC-0019,Estrela Marble Scented Candle,Decorative Accessories,Candles,Entry,No,13.42
+NVA-DEC-0020,Paris Cotton Tray,Decorative Accessories,Decorative Objects,Entry,No,13.6
+NVA-DEC-0021,Bordeaux Metal Wall Art,Decorative Accessories,Wall Decor,Mid-Range,No,18.11
+NVA-DEC-0022,Barcelona Metal Glass Vase,Decorative Accessories,Vases,Mid-Range,No,14.49
+NVA-DEC-0023,Marseille Pine Wall Mirror,Decorative Accessories,Mirrors,Mid-Range,No,24.77
+NVA-DEC-0024,Coastal Ceramic Bookend,Decorative Accessories,Decorative Objects,Entry,No,13.97
+NVA-DEC-0025,Nice Marble Decorative Box,Decorative Accessories,Decorative Objects,Entry,No,8.3
+NVA-DEC-0026,Toulouse Canvas Wall Panel,Decorative Accessories,Wall Decor,Mid-Range,No,18.11
+NVA-DEC-0027,Toulouse Oak Framed Print,Decorative Accessories,Wall Decor,Entry,No,6.65
+NVA-DEC-0028,Florence Stoneware Vanity Mirror,Decorative Accessories,Mirrors,Entry,No,15.39
+NVA-DEC-0029,Luna Bouclé Ceramic Vase,Decorative Accessories,Vases,Entry,No,5.68
+NVA-DEC-0030,Toulouse Textured Framed Print,Decorative Accessories,Wall Decor,Mid-Range,No,25.24
+NVA-DEC-0031,Marseille Bamboo Lantern,Decorative Accessories,Candles,Mid-Range,No,12.77
+NVA-DEC-0032,Seville Cotton Decorative Bowl,Decorative Accessories,Decorative Objects,Entry,No,14.48
+NVA-DEC-0033,Provence Pine Glass Vase,Decorative Accessories,Vases,Entry,No,10.36
+NVA-DEC-0034,Valencia Clay Bud Vase,Decorative Accessories,Vases,Mid-Range,No,19.37
+NVA-DEC-0035,Avery Rattan Arched Mirror,Decorative Accessories,Mirrors,Mid-Range,No,13.82
+NVA-DEC-0036,Provence Bamboo Bud Vase,Decorative Accessories,Vases,Mid-Range,No,15.93
+NVA-DEC-0037,Madrid Linen Wall Art,Decorative Accessories,Wall Decor,Mid-Range,No,17.22
+NVA-DEC-0038,Avery Bouclé Framed Print,Decorative Accessories,Wall Decor,Mid-Range,No,22.44
+NVA-DEC-0039,Cascais Canvas Round Mirror,Decorative Accessories,Mirrors,Mid-Range,No,17.31
+NVA-DEC-0040,Valencia Walnut Wall Mirror,Decorative Accessories,Mirrors,Mid-Range,Yes,14.45
+NVA-DEC-0041,Granada Wool Glass Vase,Decorative Accessories,Vases,Entry,Yes,11.76
+NVA-DEC-0042,Cascais Canvas Sculpture,Decorative Accessories,Decorative Objects,Entry,No,7.55
+NVA-DEC-0043,Algarve Pine Glass Vase,Decorative Accessories,Vases,Entry,No,15.89
+NVA-DEC-0044,Luna Marble Framed Print,Decorative Accessories,Wall Decor,Entry,No,11.66
+NVA-DEC-0045,Avery Wool Decorative Box,Decorative Accessories,Decorative Objects,Entry,No,13.24
+NVA-DEC-0046,Toulouse Oak Scented Candle,Decorative Accessories,Candles,Mid-Range,No,16.92
+NVA-DEC-0047,Seville Clay Vase,Decorative Accessories,Vases,Entry,Yes,9.74
+NVA-DEC-0048,Cascais Wool Wall Mirror,Decorative Accessories,Mirrors,Entry,Yes,9.27
+NVA-DEC-0049,Nice Walnut Candle Holder,Decorative Accessories,Candles,Mid-Range,No,19.67
+NVA-DEC-0050,Florence Textured Sculpture,Decorative Accessories,Decorative Objects,Mid-Range,No,22.82
+NVA-DEC-0051,Madrid Metal Bud Vase,Decorative Accessories,Vases,Entry,Yes,5.16
+NVA-DEC-0052,Nordic Oak Decorative Bowl,Decorative Accessories,Decorative Objects,Entry,No,11.07
+NVA-DEC-0053,Madrid Brass Bud Vase,Decorative Accessories,Vases,Entry,Yes,13.1
+NVA-DEC-0054,Florence Textured Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,No,26.37
+NVA-DEC-0055,Braga Cotton Wall Art,Decorative Accessories,Wall Decor,Entry,No,11.76
+NVA-DEC-0056,Vienna Wool Arched Mirror,Decorative Accessories,Mirrors,Entry,No,11.81
+NVA-DEC-0057,Algarve Stoneware Framed Print,Decorative Accessories,Wall Decor,Entry,No,14.74
+NVA-DEC-0058,Avery Bouclé Glass Vase,Decorative Accessories,Vases,Entry,No,13.0
+NVA-DEC-0059,Cascais Wool Framed Print,Decorative Accessories,Wall Decor,Entry,No,8.33
+NVA-DEC-0060,Siena Bamboo Round Mirror,Decorative Accessories,Mirrors,Mid-Range,Yes,16.13
+NVA-DEC-0061,Provence Rattan Scented Candle,Decorative Accessories,Candles,Entry,No,13.21
+NVA-DEC-0062,Bordeaux Wool Lantern,Decorative Accessories,Candles,Entry,Yes,10.18
+NVA-DEC-0063,Marseille Linen Glass Vase,Decorative Accessories,Vases,Premium,No,33.48
+NVA-DEC-0064,Douro Pine Vanity Mirror,Decorative Accessories,Mirrors,Entry,No,14.0
+NVA-DEC-0065,Marseille Walnut Candle Holder,Decorative Accessories,Candles,Mid-Range,No,16.01
+NVA-DEC-0066,Lyon Stoneware Vase,Decorative Accessories,Vases,Premium,No,34.65
+NVA-DEC-0067,Nordic Glass Bud Vase,Decorative Accessories,Vases,Entry,No,14.06
+NVA-DEC-0068,Sierra Bamboo Scented Candle,Decorative Accessories,Candles,Mid-Range,Yes,21.41
+NVA-DEC-0069,Lisbon Textured Round Mirror,Decorative Accessories,Mirrors,Entry,No,13.47
+NVA-DEC-0070,Coastal Walnut Sculpture,Decorative Accessories,Decorative Objects,Entry,No,12.95
+NVA-DEC-0071,Coastal Metal Decorative Box,Decorative Accessories,Decorative Objects,Entry,Yes,5.79
+NVA-DEC-0072,Bordeaux Wool Wall Hanging,Decorative Accessories,Wall Decor,Entry,No,6.86
+NVA-DEC-0073,Oslo Bamboo Candle Holder,Decorative Accessories,Candles,Mid-Range,No,28.82
+NVA-DEC-0074,Seville Wool Sculpture,Decorative Accessories,Decorative Objects,Entry,Yes,11.4
+NVA-DEC-0075,Provence Rattan Round Mirror,Decorative Accessories,Mirrors,Entry,No,9.89
+NVA-DEC-0076,Sierra Velvet Decorative Bowl,Decorative Accessories,Decorative Objects,Entry,No,12.82
+NVA-DEC-0077,Avery Walnut Sculpture,Decorative Accessories,Decorative Objects,Entry,No,14.75
+NVA-DEC-0078,Seville Ceramic Round Mirror,Decorative Accessories,Mirrors,Entry,No,14.97
+NVA-DEC-0079,Aurora Pine Wall Art,Decorative Accessories,Wall Decor,Entry,Yes,13.79
+NVA-DEC-0080,Sierra Rattan Sculpture,Decorative Accessories,Decorative Objects,Entry,No,14.43
+NVA-DEC-0081,Marseille Clay Vase,Decorative Accessories,Vases,Entry,No,12.44
+NVA-DEC-0082,Marseille Stoneware Glass Vase,Decorative Accessories,Vases,Entry,No,15.84
+NVA-DEC-0083,Douro Cotton Lantern,Decorative Accessories,Candles,Mid-Range,No,24.45
+NVA-DEC-0084,Siena Glass Bookend,Decorative Accessories,Decorative Objects,Mid-Range,No,23.51
+NVA-DEC-0085,Algarve Stoneware Glass Vase ,Decorative Accessories,Vases,Entry,No,12.79
+NVA-DEC-0086,Oslo Marble Candle Holder,Decorative Accessories,Candles,Entry,No,13.81
+NVA-DEC-0087,Algarve Textured Ceramic Vase,Decorative Accessories,Vases,Mid-Range,No,24.57
+NVA-DEC-0088,Aurora Brass Bookend,Decorative Accessories,Decorative Objects,Entry,No,11.73
+NVA-DEC-0089,Paris Linen Wall Art,Decorative Accessories,Wall Decor,Entry,No,8.23
+NVA-DEC-0090,Toulouse  Marble Ceramic Vase,Decorative Accessories,Vases,Premium,No,40.53
+NVA-DEC-0091,Siena Pine Candle,Decorative Accessories,Candles,Entry,No,8.9
+NVA-DEC-0092,Bordeaux Rattan Scented Candle,Decorative Accessories,Candles,Mid-Range,Yes,19.66
+NVA-DEC-0093,Siena Bouclé Vase,Decorative Accessories,Vases,Mid-Range,Yes,21.35
+NVA-DEC-0094,Vienna Linen Decorative Bowl,Decorative Accessories,Decorative Objects,Mid-Range,No,18.09
+NVA-DEC-0095,Paris Canvas Wall Panel,Decorative Accessories,Wall Decor,Entry,No,14.85
+NVA-DEC-0096,Braga Linen Framed Print,Decorative Accessories,Wall Decor,Entry,No,12.72
+NVA-DEC-0097,Lyon Textured Arched Mirror,Decorative Accessories,Mirrors,Mid-Range,No,15.3
+NVA-DEC-0098,Toulouse Cotton Round Mirror,Decorative Accessories,Mirrors,Mid-Range,No,17.96
+NVA-DEC-0099,Lyon Brass Decorative Box,Decorative Accessories,Decorative Objects,Mid-Range,Yes,21.5
+NVA-DEC-0100,Provence Bamboo Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,No,23.36
+NVA-DEC-0101,Provence Metal Ceramic Vase,Decorative Accessories,Vases,Entry,No,13.03
+NVA-DEC-0102,Florence Stoneware Vase,Decorative Accessories,Vases,Entry,No,11.84
+NVA-DEC-0103,Porto Clay Scented Candle,Decorative Accessories,Candles,Entry,Yes,7.07
+NVA-DEC-0104,Luna Bamboo Candle Holder,Decorative Accessories,Candles,Mid-Range,No,14.58
+NVA-DEC-0105,Estrela Canvas Glass Vase,Decorative Accessories,Vases,Premium,No,31.82
+NVA-DEC-0106,Braga Clay Wall Panel,Decorative Accessories,Wall Decor,Mid-Range,No,18.39
+NVA-DEC-0107,Granada Walnut Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,Yes,17.94
+NVA-DEC-0108,Barcelona Clay Vanity Mirror,Decorative Accessories,Mirrors,Entry,No,5.92
+NVA-DEC-0109,Vienna Rattan Wall Hanging,Decorative Accessories,Wall Decor,Mid-Range,No,21.87
+NVA-DEC-0110,Siena Oak Wall Hanging,Decorative Accessories,Wall Decor,Entry,No,13.5
+NVA-DEC-0111,Valencia Brass Wall Art,Decorative Accessories,Wall Decor,Mid-Range,No,16.65
+NVA-DEC-0112,Avery Walnut Candle,Decorative Accessories,Candles,Entry,No,14.98
+NVA-DEC-0113,Sierra Wool Vase,Decorative Accessories,Vases,Premium,No,27.64
+NVA-DEC-0114,Algarve Cotton Bookend,Decorative Accessories,Decorative Objects,Entry,Yes,13.64
+NVA-DEC-0115,Lyon Pine Lantern,Decorative Accessories,Candles,Entry,No,11.14
+NVA-DEC-0116,Paris Velvet Bookend,Decorative Accessories,Decorative Objects,Mid-Range,No,21.19
+NVA-DEC-0117,Madrid Bouclé Decorative Box,Decorative Accessories,Decorative Objects,Entry,No,7.19
+NVA-DEC-0118,Paris Canvas Decorative Box,Decorative Accessories,Decorative Objects,Premium,Yes,28.52
+NVA-DEC-0119,Aurora Oak Candle Holder,Decorative Accessories,Candles,Mid-Range,No,22.47
+NVA-DEC-0120,Barcelona Bamboo Glass Vase,Decorative Accessories,Vases,Entry,No,10.92
+NVA-DEC-0121,Aurora Metal Bookend,Decorative Accessories,Decorative Objects,Entry,No,9.05
+NVA-DEC-0122,Madrid Woven Tray,Decorative Accessories,Decorative Objects,Entry,No,8.28
+NVA-DEC-0123,Valencia Brass Wall Mirror,Decorative Accessories,Mirrors,Entry,Yes,12.53
+NVA-DEC-0124,Coastal Glass Wall Art,Decorative Accessories,Wall Decor,Premium,Yes,27.96
+NVA-DEC-0125,Barcelona Textured Wall Art,Decorative Accessories,Wall Decor,Premium,No,34.9
+NVA-KDN-0001,Soft Storage Box,Kitchen & Dining,Storage,Entry,No,21.52
+NVA-KDN-0002,Warm Dinner Set,Kitchen & Dining,Dinnerware,Entry,No,15.31
+NVA-KDN-0003,Artisan Serving Board,Kitchen & Dining,Serving Accessories,Mid-Range,No,33.37
+NVA-KDN-0004,Heritage Napkin Set,Kitchen & Dining,Table Linen,Mid-Range,No,26.27
+NVA-KDN-0005,Milan Carafe,Kitchen & Dining,Glassware,Mid-Range,No,38.39
+NVA-KDN-0006,Scandi Storage Box,Kitchen & Dining,Storage,Mid-Range,No,24.56
+NVA-KDN-0007,Modern Utensil Holder,Kitchen & Dining,Serving Accessories,Entry,No,18.73
+NVA-KDN-0008,Vienna Serving Tray,Kitchen & Dining,Serving Accessories,Entry,No,9.18
+NVA-KDN-0009,Soft Dinner Set,Kitchen & Dining,Dinnerware,Entry,No,9.95
+NVA-KDN-0010,Vintage Kitchen Basket,Kitchen & Dining,Storage,Mid-Range,No,28.69
+NVA-KDN-0011,Oslo Carafe,Kitchen & Dining,Glassware,Mid-Range,No,21.61
+NVA-KDN-0012,Natural Storage Box,Kitchen & Dining,Storage,Mid-Range,No,32.49
+NVA-KDN-0013,Warm Serving Bowl,Kitchen & Dining,Dinnerware,Premium,No,66.13
+NVA-KDN-0014,Classic Kitchen Basket,Kitchen & Dining,Storage,Mid-Range,Yes,32.21
+NVA-KDN-0015,Natural Plate Set,Kitchen & Dining,Dinnerware,Entry,No,22.68
+NVA-KDN-0016,Porto Tablecloth,Kitchen & Dining,Table Linen,Premium,No,55.06
+NVA-KDN-0017,Soft Pasta Bowl,Kitchen & Dining,Dinnerware,Entry,No,27.55
+NVA-KDN-0018,Coastal Wine Glass Set,Kitchen & Dining,Glassware,Mid-Range,No,35.7
+NVA-KDN-0019,Artisan Dinner Set,Kitchen & Dining,Dinnerware,Premium,No,55.14
+NVA-KDN-0020,Nordic Pasta Bowl,Kitchen & Dining,Dinnerware,Premium,No,62.83
+NVA-KDN-0021,Warm Table Runner,Kitchen & Dining,Table Linen,Entry,Yes,20.24
+NVA-KDN-0022,Estrela Cake Stand,Kitchen & Dining,Serving Accessories,Entry,No,26.62
+NVA-KDN-0023,Contemporary Table Runner,Kitchen & Dining,Table Linen,Mid-Range,No,26.55
+NVA-KDN-0024,Siena Storage Jar,Kitchen & Dining,Storage,Entry,Yes,24.34
+NVA-KDN-0025,Heritage Glass Set,Kitchen & Dining,Glassware,Mid-Range,No,21.77
+NVA-KDN-0026,Provence Napkin Set,Kitchen & Dining,Table Linen,Mid-Range,No,41.39
+NVA-KDN-0027,Marseille Pasta Bowl,Kitchen & Dining,Dinnerware,Entry,No,12.65
+NVA-KDN-0028,Estrela Wine Glass Set,Kitchen & Dining,Glassware,Entry,No,16.84
+NVA-KDN-0029,Minimal Cake Stand,Kitchen & Dining,Serving Accessories,Entry,No,22.27
+NVA-KDN-0030,Lyon Table Runner,Kitchen & Dining,Table Linen,Entry,No,9.4
+NVA-KDN-0031,Coastal Pasta Bowl,Kitchen & Dining,Dinnerware,Entry,No,16.07
+NVA-KDN-0032,Bordeaux Carafe,Kitchen & Dining,Glassware,Mid-Range,No,22.01
+NVA-KDN-0033,Barcelona Tablecloth,Kitchen & Dining,Table Linen,Mid-Range,No,31.38
+NVA-KDN-0034,Paris Tablecloth,Kitchen & Dining,Table Linen,Mid-Range,No,30.0
+NVA-KDN-0035,Elegant Utensil Holder,Kitchen & Dining,Serving Accessories,Mid-Range,No,40.5
+NVA-KDN-0036,Minimal Table Runner,Kitchen & Dining,Table Linen,Mid-Range,No,28.83
+NVA-KDN-0037,Bordeaux Plate Set,Kitchen & Dining,Dinnerware,Entry,No,16.4
+NVA-KDN-0038,Elegant Glass Set,Kitchen & Dining,Glassware,Entry,No,17.65
+NVA-KDN-0039,Coastal Canister Set,Kitchen & Dining,Storage,Mid-Range,No,24.9
+NVA-KDN-0040,Florence Utensil Holder,Kitchen & Dining,Serving Accessories,Mid-Range,No,29.46
+NVA-KDN-0041,Coastal Table Runner,Kitchen & Dining,Table Linen,Entry,No,19.66
+NVA-KDN-0042,Oslo Cake Stand,Kitchen & Dining,Serving Accessories,Entry,No,15.25
+NVA-KDN-0043,Nice Carafe,Kitchen & Dining,Glassware,Entry,No,24.38
+NVA-KDN-0044,Algarve  Napkin Set,Kitchen & Dining,Table Linen,Mid-Range,No,36.65
+NVA-KDN-0045,Elegant Kitchen Basket,Kitchen & Dining,Storage,Mid-Range,No,26.49
+NVA-KDN-0046,Warm Wine Glass Set,Kitchen & Dining,Glassware,Entry,No,14.97
+NVA-KDN-0047,Coastal Tablecloth,Kitchen & Dining,Table Linen,Entry,No,16.4
+NVA-KDN-0048,Toulouse Plate Set,Kitchen & Dining,Dinnerware,Entry,No,19.62
+NVA-KDN-0049,Minimal Kitchen Basket,Kitchen & Dining,Storage,Mid-Range,Yes,27.23
+NVA-KDN-0050,Artisan Utensil Holder,Kitchen & Dining,Serving Accessories,Entry,No,22.49
+NVA-KDN-0051,Rustic Plate Set,Kitchen & Dining,Dinnerware,Entry,No,18.13
+NVA-KDN-0052,Bordeaux Napkin Set,Kitchen & Dining,Table Linen,Entry,No,15.24
+NVA-KDN-0053,Granada Pasta Bowl,Kitchen & Dining,Dinnerware,Entry,No,14.34
+NVA-KDN-0054,Artisan Placemat Set,Kitchen & Dining,Table Linen,Entry,Yes,16.46
+NVA-KDN-0055,Avery Napkin Set,Kitchen & Dining,Table Linen,Entry,No,13.05
+NVA-KDN-0056,Barcelona Dinner Set,Kitchen & Dining,Dinnerware,Mid-Range,No,47.76
+NVA-KDN-0057,Elegant Serving Board,Kitchen & Dining,Serving Accessories,Premium,No,67.06
+NVA-KDN-0058,Granada Glass Set,Kitchen & Dining,Glassware,Premium,Yes,65.74
+NVA-KDN-0059,Elegant Pasta Bowl,Kitchen & Dining,Dinnerware,Entry,No,14.33
+NVA-KDN-0060,Granada Kitchen Basket,Kitchen & Dining,Storage,Mid-Range,No,28.77
+NVA-SEA-0001,Snowfall Winter Candle,Seasonal Collection,Seasonal Candles,Entry,No,15.11
+NVA-SEA-0002,Snowfall Home Gift Set,Seasonal Collection,Gift Sets,Entry,No,12.8
+NVA-SEA-0003,Frosted Christmas Napkin Set,Seasonal Collection,Seasonal Table Decor,Mid-Range,No,30.79
+NVA-SEA-0004,Frosted Holiday Candle,Seasonal Collection,Seasonal Candles,Mid-Range,No,21.26
+NVA-SEA-0005,Holiday Christmas Ornament,Seasonal Collection,Christmas Decor,Entry,No,10.35
+NVA-SEA-0006,Nordic Christmas Festive Candle,Seasonal Collection,Seasonal Candles,Entry,No,14.63
+NVA-SEA-0007,Evergreen Festive Stocking,Seasonal Collection,Holiday Accessories,Entry,No,11.99
+NVA-SEA-0008,Nordic Christmas Holiday Gift Set,Seasonal Collection,Gift Sets,Mid-Range,No,18.87
+NVA-SEA-0009,Winter Pine Wreath,Seasonal Collection,Christmas Decor,Entry,No,18.77
+NVA-SEA-0010,Frosted Garland,Seasonal Collection,Christmas Decor,Mid-Range,No,20.64
+NVA-SEA-0011,Frosted Festive Table Runner,Seasonal Collection,Seasonal Table Decor,Mid-Range,No,16.97
+NVA-SEA-0012,Golden Noel Garland,Seasonal Collection,Christmas Decor,Premium,No,41.75
+NVA-SEA-0013,Festive Christmas Ornament,Seasonal Collection,Christmas Decor,Premium,No,37.25
+NVA-SEA-0014,Christmas Star Tree Decoration,Seasonal Collection,Christmas Decor,Entry,No,8.79
+NVA-SEA-0015,Festive Candle Gift Set,Seasonal Collection,Gift Sets,Entry,No,14.0
+NVA-SEA-0016,Frosted Wreath,Seasonal Collection,Christmas Decor,Mid-Range,No,17.26
+NVA-SEA-0017,Snowfall Wreath,Seasonal Collection,Christmas Decor,Entry,No,10.03
+NVA-SEA-0018,Winter Pine Tree Decoration,Seasonal Collection,Christmas Decor,Mid-Range,No,17.63
+NVA-SEA-0019,Festive Garland,Seasonal Collection,Christmas Decor,Entry,No,10.05
+NVA-SEA-0020,Evergreen Christmas Ornament,Seasonal Collection,Christmas Decor,Mid-Range,No,33.62
+NVA-SEA-0021,Festive Wreath,Seasonal Collection,Christmas Decor,Entry,No,10.18
+NVA-SEA-0022,Winter Pine Holiday Gift Set,Seasonal Collection,Gift Sets,Entry,Yes,13.95
+NVA-SEA-0023,Golden Noel Wreath,Seasonal Collection,Christmas Decor,Mid-Range,No,17.63
+NVA-SEA-0024,Winter Glow Garland,Seasonal Collection,Christmas Decor,Entry,No,11.34
+NVA-SEA-0025,Festive Holiday Lantern,Seasonal Collection,Holiday Accessories,Entry,No,16.39
+NVA-SEA-0026,Frosted Gift Box,Seasonal Collection,Gift Sets,Mid-Range,No,16.97
+NVA-SEA-0027,Winter Pine Candle Gift Set,Seasonal Collection,Gift Sets,Mid-Range,No,28.96
+NVA-SEA-0028,Golden Noel Gift Box,Seasonal Collection,Gift Sets,Entry,Yes,14.34
+NVA-SEA-0029,Nordic Christmas Tree Skirt,Seasonal Collection,Holiday Accessories,Entry,No,16.01
+NVA-SEA-0030,Christmas Star Festive Stocking,Seasonal Collection,Holiday Accessories,Mid-Range,Yes,30.52
+NVA-SEA-0031,Evergreen Candle Gift Set,Seasonal Collection,Gift Sets,Entry,No,17.2
+NVA-SEA-0032,Golden Noel Winter Candle,Seasonal Collection,Seasonal Candles,Entry,No,17.24
+NVA-SEA-0033,Frosted Tree Decoration,Seasonal Collection,Christmas Decor,Entry,No,15.62
+NVA-SEA-0034,Frosted Festive Candle,Seasonal Collection,Seasonal Candles,Entry,No,15.13
+NVA-SEA-0035,Frosted Holiday Table Centerpiece,Seasonal Collection,Seasonal Table Decor,Mid-Range,No,17.28
+NVA-SEA-0036,Holiday Holiday Table Centerpiece,Seasonal Collection,Seasonal Table Decor,Entry,Yes,16.62
+NVA-SEA-0037,Evergreen Festive Candle,Seasonal Collection,Seasonal Candles,Entry,No,14.21
+NVA-SEA-0038,Winter Pine Christmas Napkin Set,Seasonal Collection,Seasonal Table Decor,Mid-Range,No,17.64
+NVA-SEA-0039,Christmas Star Holiday Lantern,Seasonal Collection,Holiday Accessories,Entry,No,14.59
+NVA-SEA-0040,Christmas Star Winter Candle,Seasonal Collection,Seasonal Candles,Entry,No,17.26
