@@ -20,34 +20,17 @@ The solution follows a multi-layer SQL architecture designed to transform raw op
 
 # 📖 Overview
 
-The technical foundation was designed around a single objective:
+## ✍️ Design Principles
 
-> **Build once. Reuse everywhere.**
+The technical foundation was designed so that a single SQL architecture supports multiple business domains while maintaining consistent business definitions and analytical logic.
 
-A shared SQL architecture ensures that all business projects rely on the same business definitions, transformation logic and analytical datasets.
+## ✅ Key Capabilities
 
----
-
-## ✨ Design Principles
-
-The architecture is based on three core principles:
-
-| Principle | Description |
-|-----------|-------------|
-| **Reusability** | Shared SQL components and analytical views are designed to support multiple business use cases. |
-| **Consistency** | Standardized business logic and KPIs ensure consistent reporting across all dashboards. |
-| **Reliability** | Data quality controls and ETL validation produce trusted, business-ready datasets. |
-
----
-
-## 🚀 Key Capabilities
-
-- Shared SQL architecture supporting multiple business domains
-- Multi-layer Data Warehouse *(Raw → Clean → Analytics)*
-- Modular ETL pipelines
-- Reusable analytical SQL views
-- Integrated data quality controls
-- Tableau-ready analytical datasets
+- **Shared SQL Architecture** supporting multiple analytical projects
+- **Multi-layer Data Warehouse** (Raw → Clean → Analytics)
+- **Reusable Analytical Views** optimized for reporting
+- **Integrated Data Quality Controls** throughout the ETL process
+- **Business-ready Datasets** designed for Tableau dashboards
 
 ---
 
@@ -56,28 +39,16 @@ The architecture is based on three core principles:
 ```text
 00_Technical_Foundation
 │
-├── datasets/
+├── datasets/                              # Source CSV files used throughout the project
 │
-├── scripts/
-│   ├── raw_layer/
-│   ├── clean_layer/
-│   ├── analytics_layer/
-│   └── data_quality/
+├── scripts/                               # SQL scripts for ETL and transformations
+│   ├── raw_layer/                         # Scripts for extracting and loading raw data
+│   ├── clean_layer/                       # Data cleansing, standardization and business transformations
+│   ├── analytics_layer/                   # Business-ready SQL views used by Tableau dashboards
+│   └── data_quality/                      # SQL validation scripts and quality checks
 │
-└── README.md
+└── README.md                              # Project overview
 ```
-
----
-
-# 📚 Repository Contents
-
-| Folder | Description |
-|--------|-------------|
-| **datasets** | Source CSV files used throughout the project |
-| **raw_layer** | Raw data ingestion scripts |
-| **clean_layer** | Data cleansing, standardization and business transformations |
-| **analytics_layer** | Business-ready SQL views used by Tableau dashboards |
-| **data_quality** | SQL validation scripts and quality checks |
 
 ---
 
