@@ -1,4 +1,5 @@
 # 00 Technical Foundation
+> <i>SQL Architecture, ETL & Analytics Views</i>
 
 ### Shared SQL Architecture
 
