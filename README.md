@@ -13,7 +13,7 @@ It provides a centralized data warehouse, reusable analytical views and standard
 The solution follows a multi-layer SQL architecture designed to transform raw operational data into reliable, business-ready datasets.
 
 <p align="center">
-  <img src="../assets/data_architecture.png" width="900">
+  <img src="/assets/data_architecture.png" width="900">
 </p>
 
 ---
