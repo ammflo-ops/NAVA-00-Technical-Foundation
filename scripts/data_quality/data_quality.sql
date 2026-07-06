@@ -24,6 +24,7 @@ It does not modify, insert, update or delete any data.
 -- ===================================================================
 -- Checking 'fact_sales'
 -- ===================================================================
+
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
 
@@ -252,4 +253,9 @@ SELECT DISTINCT
   amount_actual
 FROM NAVA_clean.expenses
 WHERE amount_actual IS NULL;
+
+-- ===================================================================
+-- Checking 'fact_marketing'
+-- ===================================================================
+
 
