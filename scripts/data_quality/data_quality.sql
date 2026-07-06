@@ -34,7 +34,7 @@ FROM NAVA_clean.sales
 GROUP BY order_line_id
 HAVING COUNT(*) > 1 OR order_line_id IS NULL;
 
--- Check for Unwanted Spaces and carriage returns
+-- Check for Unwanted Spaces or Carriage Returns
 -- Expectation: No Results
 
 SELECT 
@@ -45,7 +45,6 @@ WHERE postal_code != TRIM(postal_code)
   OR postal_code LIKE CONCAT('%', CHAR(10), '%');
 
 -- Data Standardization & Consistency
--- Expectation: No Results
 
 SELECT DISTINCT ship_mode
 FROM NAVA_clean.sales;
@@ -84,3 +83,92 @@ ORDER BY net_sales, quantity, unit_price;
 -- ===================================================================
 -- Checking 'fact_returns'
 -- ===================================================================
+
+-- Check for NULLs or Duplicates in Primary Key
+-- Expectation: No Results
+
+SELECT 
+  return_id,
+  COUNT(*) 
+FROM NAVA_clean.returns
+GROUP BY return_id
+HAVING COUNT(*) > 1 OR return_id IS NULL;
+
+-- Check for Unwanted Spaces or Carriage Returns
+-- Expectation: No Results
+
+SELECT 
+  order_id
+FROM NAVA_clean.returns
+WHERE order_id != TRIM(order_id)
+  OR order_id LIKE CONCAT('%', CHAR(13), '%')
+  OR order_id LIKE CONCAT('%', CHAR(10), '%');
+
+-- Data Standardization & Consistency
+-- Expectation: No Results
+
+SELECT DISTINCT return_reason
+FROM NAVA_clean.returns;
+
+-- Check Data Consistency
+-- Expectation: No Results
+
+SELECT DISTINCT
+  return_quantity,
+  return_amount
+FROM NAVA_clean.returns
+WHERE return_amount IS NULL 
+  OR return_quantity IS NULL ;
+
+-- ===================================================================
+-- Checking 'dim_location'
+-- ===================================================================
+
+-- Check for NULLs or Duplicates in Primary Key
+-- Expectation: No Results
+
+SELECT 
+  postal_code,
+  COUNT(*) 
+FROM NAVA_clean.location
+GROUP BY postal_code
+HAVING COUNT(*) > 1 OR postal_code IS NULL;
+
+-- Check for Unwanted Spaces or Carriage Returns
+-- Expectation: No Results
+
+SELECT 
+  postal_code
+FROM NAVA_clean.location
+WHERE postal_code != TRIM(postal_code)
+  OR postal_code LIKE CONCAT('%', CHAR(13), '%')
+  OR postal_code LIKE CONCAT('%', CHAR(10), '%');
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT country
+FROM NAVA_clean.location;
+
+-- ===================================================================
+-- Checking 'dim_customers'
+-- ===================================================================
+
+-- Check for NULLs or Duplicates in Primary Key
+-- Expectation: No Results
+
+SELECT 
+  customer_id,
+  COUNT(*) 
+FROM NAVA_clean.customers
+GROUP BY customer_id
+HAVING COUNT(*) > 1 OR customer_id IS NULL;
+
+-- Check for Unwanted Spaces or Carriage Returns
+-- Expectation: No Results
+
+SELECT 
+  postal_code
+FROM NAVA_clean.customers
+WHERE postal_code != TRIM(postal_code)
+  OR postal_code LIKE CONCAT('%', CHAR(13), '%')
+  OR postal_code LIKE CONCAT('%', CHAR(10), '%');
