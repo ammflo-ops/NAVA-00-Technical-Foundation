@@ -254,8 +254,5 @@ SELECT DISTINCT
 FROM NAVA_clean.expenses
 WHERE amount_actual IS NULL;
 
--- ===================================================================
--- Checking 'fact_marketing'
--- ===================================================================
 
 
