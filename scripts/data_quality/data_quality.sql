@@ -191,3 +191,65 @@ HAVING COUNT(*) > 1 OR product_id IS NULL;
 
 SELECT DISTINCT category
 FROM NAVA_clean.products;
+
+-- ===================================================================
+-- Checking 'fact_budget'
+-- ===================================================================
+
+-- Identify Out-of-Range Dates
+-- Expectation: Budget Period between 2024-01-01 and 2025-12-01
+
+SELECT DISTINCT 
+budget_month
+FROM NAVA_clean.budget
+WHERE budget_month < '2024-01-01' 
+   OR budget_month > '2025-12-01';
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT country
+FROM NAVA_clean.budget;
+
+SELECT DISTINCT budget_type
+FROM NAVA_clean.budget;
+
+-- Check Data Consistency
+-- Expectation: No Results
+
+SELECT DISTINCT
+  budget_amount
+FROM NAVA_clean.budget
+WHERE budget_amount IS NULL;
+
+-- ===================================================================
+-- Checking 'fact_expenses'
+-- ===================================================================
+
+-- Identify Out-of-Range Dates
+-- Expectation: Expenses Period between 2024-01-01 and 2025-12-31
+
+SELECT DISTINCT 
+invoice_date
+FROM NAVA_clean.expenses
+WHERE invoice_date < '2024-01-01' 
+   OR invoice_date > '2025-12-31';
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT country
+FROM NAVA_clean.expenses;
+
+SELECT DISTINCT department
+FROM NAVA_clean.expenses;
+
+SELECT DISTINCT cost_category
+FROM NAVA_clean.expenses;
+
+-- Check Data Consistency
+-- Expectation: No Results
+
+SELECT DISTINCT
+  amount_actual
+FROM NAVA_clean.expenses
+WHERE amount_actual IS NULL;
+
