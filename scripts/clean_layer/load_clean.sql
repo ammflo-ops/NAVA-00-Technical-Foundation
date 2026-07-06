@@ -197,7 +197,10 @@ SELECT
 	TRIM(Expense_ID),
 	Invoice_Date,
 	LOWER(TRIM(REPLACE(REPLACE(Department, CHAR(13), ''), CHAR(10), ''))), -- Clean and Normalize Department values
-	LOWER(TRIM(REPLACE(REPLACE(Cost_Category, CHAR(13), ''), CHAR(10), ''))),-- Clean and Normalize Cost_Category values
+	CASE
+		WHEN LOWER(TRIM(REPLACE(REPLACE(Cost_Category, CHAR(13), ''), CHAR(10), '')))= 'customersupport',-- Clean and Normalize Cost_Category values
+		THEN 'customer support'
+	ELSE LOWER(TRIM(REPLACE(REPLACE(Cost_Category, CHAR(13), ''), CHAR(10), '')))
 	TRIM(Vendor_Name),
 	Amount_Actual,
 	UPPER(TRIM(REPLACE(REPLACE(Country, CHAR(13), ''), CHAR(10), ''))) -- Clean and Normalize Country values
