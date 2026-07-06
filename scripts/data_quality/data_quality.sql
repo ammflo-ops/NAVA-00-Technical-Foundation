@@ -172,3 +172,22 @@ FROM NAVA_clean.customers
 WHERE postal_code != TRIM(postal_code)
   OR postal_code LIKE CONCAT('%', CHAR(13), '%')
   OR postal_code LIKE CONCAT('%', CHAR(10), '%');
+
+-- ===================================================================
+-- Checking 'dim_products'
+-- ===================================================================
+
+-- Check for NULLs or Duplicates in Primary Key
+-- Expectation: No Results
+
+SELECT 
+  product_id,
+  COUNT(*) 
+FROM NAVA_clean.products
+GROUP BY product_id
+HAVING COUNT(*) > 1 OR product_id IS NULL;
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT category
+FROM NAVA_clean.products;
