@@ -60,6 +60,8 @@ LEFT JOIN NAVA_clean.dim_location l
 -- 02 Budget Performance view
 -- ====================================================================
 
+CREATE OR REPLACE VIEW NAVA_analytics.v_budget_vs_actual AS
+
 WITH actuals AS ( -- Combine revenue and expense actuals into a single monthly dataset
 SELECT
   DATE_FORMAT(order_date, '%Y-%m-01') AS budget_month,
@@ -113,101 +115,51 @@ CREATE OR REPLACE VIEW NAVA_analytics.v_marketing_conversion AS
 WITH sales_by_order AS ( -- Aggregate sales at order level before joining with conversions
 SELECT
   order_id,
-  SUM(net_sales) AS net_sales
-FROM NAVA_clean.fact_sales
-GROUP BY order_id
-),
+  SUM(net_sales) AS attributed_revenue_adj
+FROM NAVA_clean.sales
+GROUP BY
+order_id),
 
-conversion_metrics AS ( -- Calculate conversion and revenue metrics by campaign
+marketing_conversion AS ( -- Calculate conversion and revenue metrics by campaign
 SELECT
-  mc.order_date AS date,
+  mc.order_date,
   mc.country,
   mc.channel,
   mc.campaign_id,
-  mc.campaign_name,
+  LEFT(mc.campaign_name, LENGTH(mc.campaign_name) - 3) AS campaign_name, -- Remove country suffix (FR, ES, PT) from campaign name
   COUNT(DISTINCT mc.order_id) AS orders,
-  COUNT(DISTINCT mc.customer_id) AS customers,
-  SUM(mc.attributed_revenue) AS attributed_revenue,
-  SUM(s.net_sales) AS net_sales
-FROM NAVA_clean.fact_marketing_conversion mc
+  SUM(s.attributed_revenue_adj) AS net_sales
+FROM NAVA_clean.marketing_conversion mc
 LEFT JOIN sales_by_order s
   ON mc.order_id = s.order_id
+WHERE mc.order_id NOT LIKE '%ORD-INVALID%' -- Exclude intentionally invalid orders used for data quality demonstrations
 GROUP BY
 mc.order_date,
 mc.country,
 mc.channel,
 mc.campaign_id,
-mc.campaign_name
-),
-
-marketing_metrics AS ( -- Aggregate marketing spend and traffic metrics by campaign
-SELECT
-  date,
-  country,
-  channel,
-  campaign_id,
-  campaign_name,
-  SUM(spend) AS spend,
-  SUM(impressions) AS impressions,
-  SUM(clicks) AS clicks
-FROM NAVA_clean.fact_marketing
-GROUP BY
-date,
-country,
-channel,
-campaign_id,
-campaign_name
-),
-
-base AS ( -- Create a complete campaign base including spend-only and conversion-only records
-SELECT
-  date,
-  country,
-  channel,
-  campaign_id,
-  campaign_name
-FROM marketing_metrics
-
-UNION
+mc.campaign_name) -- Aggregate conversions at campaign and daily level
 
 SELECT
-  date,
-  country,
-  channel,
-  campaign_id,
-  campaign_name
-FROM conversion_metrics
-)
-
-SELECT
-  b.date,
-  b.country,
-  b.channel,
-  b.campaign_id,
-  b.campaign_name,
-  COALESCE(m.spend, 0) AS spend,
-  COALESCE(m.impressions, 0) AS impressions,
-  COALESCE(m.clicks, 0) AS clicks,
-  COALESCE(c.orders, 0) AS orders,
-  COALESCE(c.customers, 0) AS customers,
-  COALESCE(c.attributed_revenue, 0) AS attributed_revenue,
-  COALESCE(c.net_sales, 0) AS net_sales,
-  ROUND(COALESCE(m.clicks, 0) / NULLIF(m.impressions, 0), 2) AS ctr, -- Calculate click-through rate
-  ROUND(COALESCE(m.spend, 0) / NULLIF(m.clicks, 0), 2) AS cpc, -- Calculate cost per click
-  ROUND(COALESCE(c.attributed_revenue, 0) / NULLIF(m.spend, 0), 2) AS roas, -- Calculate return on ad spend
-  ROUND(COALESCE(m.spend, 0) / NULLIF(c.orders, 0), 2) AS cost_per_order, -- Calculate acquisition cost per order
-  ROUND(COALESCE(c.attributed_revenue, 0) / NULLIF(c.orders, 0), 2) AS revenue_per_order -- Calculate attributed revenue per order
-FROM base b
-LEFT JOIN marketing_metrics m
-  ON b.date = m.date
-  AND b.country = m.country
-  AND b.channel = m.channel
-  AND b.campaign_id = m.campaign_id
-  AND b.campaign_name = m.campaign_name
-LEFT JOIN conversion_metrics c
-  ON b.date = c.date
-  AND b.country = c.country
-  AND b.channel = c.channel
-  AND b.campaign_id = c.campaign_id
-  AND b.campaign_name = c.campaign_name;
+  mc.order_date,
+  mc.country,
+  mc.channel,
+  mc.campaign_id,
+  mc.campaign_name,
+  mc.orders,
+  mc.net_sales,
+  mm.spend,
+  mm.impressions,
+  mm.clicks,
+  -- Marketing performance KPIs
+  ROUND(COALESCE(mm.clicks, 0) / NULLIF(mm.impressions, 0), 4) AS ctr, -- Calculate click-through rate
+  ROUND(COALESCE(mm.spend, 0) / NULLIF(mm.clicks, 0), 2) AS cpc, -- Calculate cost per click
+  ROUND(COALESCE(mc.net_sales, 0) / NULLIF(mm.spend, 0), 2) AS roas, -- Calculate return on ad spend
+  ROUND(COALESCE(mm.spend, 0) / NULLIF(mc.orders, 0), 2) AS cpa -- Calculate acquisition cost per order/acquisition
+FROM marketing_conversion mc
+LEFT JOIN NAVA_clean.marketing mm -- Enrich conversion metrics with campaign spend and traffic data
+  ON mc.order_date = mm.date
+  AND mc.country = mm.country
+  AND mc.channel = mm.channel
+  AND mc.campaign_id = mm.campaign_id;
 
