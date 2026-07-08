@@ -254,5 +254,48 @@ SELECT DISTINCT
 FROM NAVA_clean.expenses
 WHERE amount_actual IS NULL;
 
+-- ===================================================================
+-- Checking 'marketing'
+-- ===================================================================
 
+-- Check for Unwanted Spaces or Carriage Returns
+-- Expectation: No Results
 
+SELECT 
+  country
+FROM NAVA_clean.marketing
+WHERE country != TRIM(country)
+  OR country LIKE CONCAT('%', CHAR(13), '%')
+  OR country LIKE CONCAT('%', CHAR(10), '%');
+
+-- Check for NULLs or Negative Values in spend
+-- Expectation: No Results
+
+SELECT 
+  spend 
+FROM NAVA_clean.marketing
+WHERE spend < 0 OR spend IS NULL;
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT `channel`
+FROM NAVA_clean.marketing;
+
+-- ===================================================================
+-- Checking 'marketing_conversion'
+-- ===================================================================
+
+-- Check for Unwanted Spaces or Carriage Returns
+-- Expectation: No Results
+
+SELECT 
+  country
+FROM NAVA_clean.marketing_conversion
+WHERE country != TRIM(country)
+  OR country LIKE CONCAT('%', CHAR(13), '%')
+  OR country LIKE CONCAT('%', CHAR(10), '%');
+
+-- Data Standardization & Consistency
+
+SELECT DISTINCT `channel`
+FROM NAVA_clean.marketing_conversion;
