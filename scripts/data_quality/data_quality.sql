@@ -1,6 +1,6 @@
 /*
 ======================================================================
-SCRIPT - Load Clean Layer 
+SCRIPT - Data Quality Checks
 ======================================================================
 Project     : NAVA Data Warehouse
 Script      : data_quality.sql
@@ -46,6 +46,7 @@ WHERE postal_code != TRIM(postal_code)
   OR postal_code LIKE CONCAT('%', CHAR(10), '%');
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT ship_mode
 FROM NAVA_clean.sales;
@@ -62,7 +63,7 @@ FROM NAVA_clean.sales
 WHERE order_date > ship_date
    OR ship_date > delivery_date;
 
--- Check Data Consistency: Sales = Quantity * Price
+-- Check Data Consistency: Net Sales = Quantity * Unit Price after Discount
 -- Expectation: No Results
 
 SELECT DISTINCT
@@ -106,7 +107,7 @@ WHERE order_id != TRIM(order_id)
   OR order_id LIKE CONCAT('%', CHAR(10), '%');
 
 -- Data Standardization & Consistency
--- Expectation: No Results
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT return_reason
 FROM NAVA_clean.returns;
@@ -146,6 +147,7 @@ WHERE postal_code != TRIM(postal_code)
   OR postal_code LIKE CONCAT('%', CHAR(10), '%');
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT country
 FROM NAVA_clean.location;
@@ -189,6 +191,7 @@ GROUP BY product_id
 HAVING COUNT(*) > 1 OR product_id IS NULL;
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT category
 FROM NAVA_clean.products;
@@ -207,6 +210,7 @@ WHERE budget_month < '2024-01-01'
    OR budget_month > '2025-12-01';
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT country
 FROM NAVA_clean.budget;
@@ -236,6 +240,7 @@ WHERE invoice_date < '2024-01-01'
    OR invoice_date > '2025-12-31';
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT country
 FROM NAVA_clean.expenses;
@@ -277,6 +282,7 @@ FROM NAVA_clean.marketing
 WHERE spend < 0 OR spend IS NULL;
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT `channel`
 FROM NAVA_clean.marketing;
@@ -296,6 +302,17 @@ WHERE country != TRIM(country)
   OR country LIKE CONCAT('%', CHAR(10), '%');
 
 -- Data Standardization & Consistency
+-- Expectation: Standardized list of values only
 
 SELECT DISTINCT `channel`
 FROM NAVA_clean.marketing_conversion;
+
+-- Identify intentionally invalid order IDs
+-- Expectation: Known test records only
+
+SELECT
+  order_id,
+  COUNT(*)
+FROM NAVA_clean.marketing_conversion
+WHERE order_id LIKE '%ORD-INVALID%'
+GROUP BY order_id;
