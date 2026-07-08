@@ -25,7 +25,7 @@ Existing analytics views will be dropped and recreated.
 -- 01 Sales Performance view
 -- ====================================================================
 
-CREATE OR REPLACE VIEW NAVA_analytics.v_sales_net AS
+CREATE OR REPLACE VIEW NAVA_analytics.vw_sales_net AS
   
 SELECT
   s.order_id,
@@ -60,7 +60,7 @@ LEFT JOIN NAVA_clean.dim_location l
 -- 02 Budget Performance view
 -- ====================================================================
 
-CREATE OR REPLACE VIEW NAVA_analytics.v_budget_vs_actual AS
+CREATE OR REPLACE VIEW NAVA_analytics.vw_budget_vs_actual AS
 
 WITH actuals AS ( -- Combine revenue and expense actuals into a single monthly dataset
 SELECT
@@ -110,7 +110,7 @@ LEFT JOIN actuals a
 -- 03 Marketing Performance tables
 -- ====================================================================
 
-CREATE OR REPLACE VIEW NAVA_analytics.v_marketing_conversion AS
+CREATE OR REPLACE VIEW NAVA_analytics.vw_marketing_conversion AS
 
 WITH sales_by_order AS ( -- Aggregate sales at order level before joining with conversions
 SELECT
